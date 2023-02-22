@@ -21,7 +21,7 @@ int main(void)
 	/*print first two numbers of the fibonacci series */
 	printf("%ld, %ld, ", num1, num2);
 
-	for (j = 3; j < 98; j++)
+	for (j = 2; j < 97; j++)
 	{
 		printf("%ld, ", next_term);
 		num1 = num2;
