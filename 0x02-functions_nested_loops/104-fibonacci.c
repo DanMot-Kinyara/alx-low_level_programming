@@ -20,9 +20,10 @@ int main(void)
 	next_term = num1 + num2;
 	/*print first two numbers of the fibonacci series */
 	printf("Fibonacci sequence: %d, %d, ",num1, num2);
+
 	for (j = 3; j < 98; j++)
 	{
-		printf("%d, "next_term);
+		printf("%d, ",next_term);
 		num1 = num2;
 		num2 = next_term;
 		next_term = num1 + num2;
