@@ -2,9 +2,9 @@
 
 /**
  * _abs - computes absolute value of an integer
- * 
+ *
  * @i: integer to compute absolute value
- * 
+ *
  * Return: absolute value
  */
 
