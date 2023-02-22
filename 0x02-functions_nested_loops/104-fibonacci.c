@@ -28,4 +28,5 @@ int main(void)
 		num2 = next_term;
 		next_term = num1 + num2;
 	}
+	return (0);
 }
