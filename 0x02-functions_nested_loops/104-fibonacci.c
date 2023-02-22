@@ -12,18 +12,18 @@ int main(void)
 {
 	int j;
 	/*initialise first an second term */
-	int num1 = 1;
-	int num2 = 2;
+	long unsigned num1 = 1;
+	long unsigned num2 = 2;
 	long unsigned next_term;
 
 	/*initialise the next term */
 	next_term = num1 + num2;
 	/*print first two numbers of the fibonacci series */
-	printf("Fibonacci sequence: %d, %d, " , num1, num2);
+	printf("Fibonacci sequence: %ld, %ld, " , num1, num2);
 
 	for (j = 3; j < 98; j++)
 	{
-		printf("%d, " , next_term);
+		printf("%ld, " , next_term);
 		num1 = num2;
 		num2 = next_term;
 		next_term = num1 + num2;
