@@ -14,16 +14,16 @@ int main(void)
 	/*initialise first an second term */
 	int num1 = 1;
 	int num2 = 2;
-	int next_term;
+	long unsigned next_term;
 
 	/*initialise the next term */
 	next_term = num1 + num2;
 	/*print first two numbers of the fibonacci series */
-	printf("Fibonacci sequence: %d, %d, ",num1, num2);
+	printf("Fibonacci sequence: %d, %d, " , num1, num2);
 
 	for (j = 3; j < 98; j++)
 	{
-		printf("%d, ",next_term);
+		printf("%d, " , next_term);
 		num1 = num2;
 		num2 = next_term;
 		next_term = num1 + num2;
