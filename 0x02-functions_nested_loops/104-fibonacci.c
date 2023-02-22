@@ -14,6 +14,7 @@ int main(void)
 	/*initialise first an second term */
 	int num1 = 1;
 	int num2 = 2;
+	int next_term;
 
 	/*initialise the next term */
 	next_term = num1 + num2;
