@@ -19,7 +19,7 @@ int main(void)
 	/*initialise the next term */
 	next_term = num1 + num2;
 	/*print first two numbers of the fibonacci series */
-	printf("Fibonacci sequence: %d, %d, ",num1, num2)
+	printf("Fibonacci sequence: %d, %d, ",num1, num2);
 	for (j = 3; j < 98; j++)
 	{
 		printf("%d, "next_term);
