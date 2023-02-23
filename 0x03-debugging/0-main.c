@@ -3,6 +3,8 @@
 /**
 * main - tests function that prints if integer is positive or negative
 *
+* @i: integer to be checked
+*
 * Return: Always 0 (Success)
 */
 
@@ -12,5 +14,6 @@ int main(void)
 
 	i = 0;
 	positive_or_negative(i);
-        return (0);
+
+	return (0);
 }
