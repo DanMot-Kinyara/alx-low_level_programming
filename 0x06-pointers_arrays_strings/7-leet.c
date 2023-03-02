@@ -1,26 +1,25 @@
 #include "main.h"
-
 /**
-* leet - encodes a string in 1337
-* @s: string to be encoded
-* Return: the resulting string;
-*/
+ * leet - replaces a bunch of numbers with letters
+ *
+ * @z: the string to look at
+ *
+ * Return: the new string
+ */
 
-char *leet(char *s)
+char *leet(char *z)
 {
+	char arr[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	char replace[] = {'4', '3', '0', '7', '1'};
 	int i, j;
 
-	char *a = "aAeEoOtTlL";
-	char *b = "4433007711";
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; z[i] != '\0'; i++)
 	{
-		for (j = 0; j < 10; j++)
+		for (j = 0; arr[j] != '\0'; j++)
 		{
-			if (s[i] == a[j])
-			{
-				s[i] = b[j];
-			}
+			if (z[i] == arr[j])
+				z[i] = replace[j / 2];
 		}
 	}
-	return (s);
+	return (z);
 }
