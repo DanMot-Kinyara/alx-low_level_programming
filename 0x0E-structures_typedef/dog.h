@@ -17,4 +17,6 @@ struct dog
 
 int putchar(char);
 
+typedef struct dog my_dog;
+
 #endif /* _DOG_H_ */
